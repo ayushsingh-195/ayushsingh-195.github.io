@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayush Singh | Software &amp; Backend Developer</title>
+  <meta name="description" content="Portfolio of Ayush Singh, B.Tech student at KIET Ghaziabad focused on backend development with Java." />
+  <meta property="og:title" content="Ayush Singh | Software &amp; Backend Developer" />
+  <meta property="og:description" content="B.Tech student at KIET Ghaziabad learning backend development with Java, SQL and Spring Boot." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%8A%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">AS<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#github">GitHub</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>AYUSH SINGH</h1>
+        <h2 class="gradient-text">Software Developer / Backend Developer</h2>
+        <p class="lead">
+          Second-year B.Tech student at KIET Ghaziabad. I'm building a strong base in Java and
+          data structures, and now learning how to build backend systems with SQL and Spring Boot.
+        </p>
+        <p class="status"><span class="dot"></span>Currently learning SQL &amp; Spring Boot</p>
+        <div class="btn-row">
+          <a class="btn primary" href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/ayush-singh-34a26925a/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="#projects">Projects</a>
+        </div>
+      </div>
+      <div class="hero-3d" id="heroCanvas" aria-hidden="true"></div>
+    </section>
+
+    <!-- QUICK SUMMARY -->
+    <section class="focus reveal" aria-label="Quick summary">
+      <div class="focus-grid">
+        <div class="card"><p class="tag">Strong base</p><h4>Java · OOP · DSA</h4><p>Practising problem solving in Java.</p></div>
+        <div class="card"><p class="tag">Learning now</p><h4>SQL · Spring Boot</h4><p>Moving toward REST APIs and backend systems.</p></div>
+        <div class="card"><p class="tag">Looking for</p><h4>Internships</h4><p>Software / backend development roles.</p></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal">
+      <p class="section-label">01 — About</p>
+      <h3>A student developer, learning in public</h3>
+      <div class="about-grid">
+        <p>
+          I'm pursuing a B.Tech at <strong>KIET Group of Institutions, Ghaziabad</strong>. I enjoy
+          understanding how software works under the hood, which is why I'm drawn to backend
+          development: data, logic, and the APIs that connect everything.
+        </p>
+        <p>
+          I'm comfortable with Java, Python and C, and I'm practising DSA in Java and strengthening my OOP fundamentals. Right now
+          I'm moving from core Java toward databases and Spring Boot, and I'm looking for
+          internship and learning opportunities in software development. Outside coding, I do regular strength training, which keeps me consistent and disciplined, and I try to bring the same habit to my learning.
+        </p>
+      </div>
+          </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="reveal">
+      <p class="section-label">02 — Skills</p>
+      <h3>What I know, and what I'm learning</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>Current skills</h4>
+          <p class="group-label">Languages</p>
+          <ul class="chips"><li>Java</li><li>Python</li><li>C</li></ul>
+          <p class="group-label">Core CS</p>
+          <ul class="chips"><li>OOP</li><li>DSA in Java</li></ul>
+          <p class="group-label">Web &amp; Tools</p>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>Git / GitHub</li></ul>
+          <p class="note">Also explored: Kotlin &amp; Jetpack Compose (through my Android project).</p>
+        </div>
+        <div class="card">
+          <h4>Currently learning</h4>
+          <ul class="chips learning">
+            <li>JavaScript</li><li>SQL</li><li>JDBC</li><li>Spring Boot</li><li>REST APIs</li>
+          </ul>
+          <p class="note">In progress, not claiming expertise.</p>
+        </div>
+        <div class="card">
+          <h4>Planned next</h4>
+          <ul class="chips planned">
+            <li>JPA / Hibernate</li><li>Spring Security</li><li>Maven</li><li>JUnit</li>
+            <li>Postman</li><li>Linux basics</li><li>Docker</li><li>AWS</li>
+          </ul>
+          <p class="note">Goals only. I haven't started these yet.</p>
+        </div>
+      </div>
+      <p class="legend"><i class="k solid"></i>Know <i class="k learn"></i>Learning <i class="k plan"></i>Planned</p>
+      <div class="cube-scene" id="cubeScene" aria-label="Rotating cube showing my core skills">
+        <div class="cube" id="cube">
+          <div class="face f1">Java</div><div class="face f2">Python</div>
+          <div class="face f3">C</div><div class="face f4">OOP</div>
+          <div class="face f5">DSA</div><div class="face f6">Git</div>
+        </div>
+      </div>
+      <p class="note cube-note">Core skills cube: drag to rotate</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal">
+      <p class="section-label">03 — Projects</p>
+      <h3>Things I've built (and will build)</h3>
+      <div class="grid-3">
+        <article class="card project">
+          <span class="tag">Android · Built</span>
+          <h4>AuraFit: Workout &amp; Diet Guide</h4>
+          <p>An Android app that guides beginners in the gym: which workout split to follow, which exercises to do for each muscle group (chest, back and more) with form tips, and a hostel-friendly diet guide with protein sources.</p>
+          <p class="learned"><b>Built with:</b> Kotlin and Jetpack Compose, created with AI assistance while I explore Android development.</p>
+          <ul class="chips small"><li>Kotlin</li><li>Jetpack Compose</li></ul>
+          <a href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card project placeholder">
+          <span class="tag">Java</span>
+          <h4>Java Project</h4>
+          <p>Placeholder: replace with a Java/OOP project (e.g. a console app) once it's on GitHub.</p>
+          <ul class="chips small"><li>Java</li><li>OOP</li></ul>
+          <a href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        <article class="card project placeholder">
+          <span class="tag">Coming soon</span>
+          <h4>Spring Boot REST API</h4>
+          <p>Planned: a REST API with Spring Boot and a SQL database, built as I complete the roadmap below.</p>
+          <p class="learned"><b>Plan:</b> layered design (controller, service, repository) with a SQL database.</p>
+          <ul class="chips small"><li>Spring Boot</li><li>SQL</li></ul>
+          <a href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">Follow on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="reveal">
+      <p class="section-label">04 — Learning roadmap</p>
+      <h3>My path toward backend development</h3>
+      <ol class="roadmap">
+        <li class="done"><b>Java</b><span>Foundation</span></li>
+        <li class="now"><b>SQL</b><span>Learning</span></li>
+        <li class="now"><b>JDBC</b><span>Learning</span></li>
+        <li class="now"><b>Spring Boot</b><span>Learning</span></li>
+        <li class="now"><b>REST API</b><span>Learning</span></li>
+        <li><b>JPA / Hibernate</b><span>Planned</span></li>
+        <li><b>Security</b><span>Planned</span></li>
+        <li><b>Docker</b><span>Planned</span></li>
+        <li><b>AWS</b><span>Planned</span></li>
+      </ol>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github" class="reveal">
+      <p class="section-label">05 — GitHub</p>
+      <div class="card cta">
+        <div>
+          <h4>My code lives on GitHub</h4>
+          <p>I use Git and GitHub to version my projects. Find me at <strong>@ayushsingh-195</strong> and browse my repositories to see what I'm working on.</p>
+        </div>
+        <a class="btn primary" href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">Visit GitHub</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal">
+      <p class="section-label">06 — Contact</p>
+      <h3>Let's connect</h3>
+      <p class="lead">Open to internships, learning opportunities and conversations about backend development.</p>
+      <div class="btn-row">
+        <a class="btn primary" href="mailto:ayushsingh195683@gmail.com">ayushsingh195683@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/ayush-singh-34a26925a/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ayush Singh · KIET Ghaziabad</p>
+    <p class="built">Built with HTML, CSS, JavaScript and Three.js · <a href="https://github.com/ayushsingh-195" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/ayush-singh-34a26925a/" target="_blank" rel="noopener">LinkedIn</a></p>
+  </footer>
+
+  <!-- Three.js (pinned version) loaded before our script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
